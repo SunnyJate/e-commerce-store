@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1,
+        "name": "Long Socks - Made with natural materials",
+        "variants": [
+            { "id": "s-white-cotton", "size": "S", "material": "White / Cotton", "stock": 99, "price": 3.99 }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Printed T-shirt",
+        "variants": [
+            { "id": "printed-tshirt", "size": "S", "material": "Cotton", "stock": 75, "price": 8.99 }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Eco-friendly Water Bottle",
+        "variants": [
+            { "id": "small-green", "size": "Small", "material": "Green", "stock": 50, "price": 12.99 },
+            { "id": "medium-blue", "size": "Medium", "material": "Blue", "stock": 30, "price": 15.99 }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Wireless Earbuds",
+        "variants": [
+            { "id": "white-earbuds", "size": "One Size", "material": "White", "stock": 100, "price": 29.99 }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Organic Cotton Bedsheet",
+        "variants": [
+            { "id": "single-white", "size": "Single", "material": "White", "stock": 60, "price": 39.99 }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Recycled Paper Notebook",
+        "variants": [
+            { "id": "a5-brown", "size": "A5", "material": "Brown", "stock": 200, "price": 5.99 }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Eco-friendly Shopping Bag",
+        "variants": [
+            { "id": "large-canvas", "size": "Large", "material": "Canvas", "stock": 80, "price": 7.99 }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Handmade Ceramic Mug",
+        "variants": [
+            { "id": "small-white", "size": "Small", "material": "White", "stock": 60, "price": 12.99 }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Bamboo Toothbrush",
+        "variants": [
+            { "id": "adult-soft", "size": "Adult", "material": "Soft", "stock": 200, "price": 3.99 }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Solar Powered Charger",
+        "variants": [
+            { "id": "5w-basic", "size": "5W", "material": "Basic", "stock": 30, "price": 19.99 }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Yoga Mat",
+        "variants": [
+            { "id": "standard-blue", "size": "Standard", "material": "Blue", "stock": 40, "price": 29.99 }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Stainless Steel Straw Set",
+        "variants": [
+            { "id": "silver-pack", "size": "Pack of 4", "material": "Silver", "stock": 150, "price": 14.99 }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Reusable Grocery Bags",
+        "variants": [
+            { "id": "large-set", "size": "Large", "material": "Multi-color", "stock": 70, "price": 24.99 }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Natural Deodorant",
+        "variants": [
+            { "id": "lavender-stick", "size": "One Size", "material": "Lavender", "stock": 120, "price": 9.99 }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Biodegradable Phone Case",
+        "variants": [
+            { "id": "iphone-12-green", "size": "iPhone 12", "material": "Green", "stock": 85, "price": 19.99 }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Eco-friendly Journal",
+        "variants": [
+            { "id": "medium-brown", "size": "Medium", "material": "Brown", "stock": 40, "price": 7.99 }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Reusable Cotton Rounds",
+        "variants": [
+            { "id": "pack-of-20", "size": "One Size", "material": "White", "stock": 150, "price": 11.99 }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Bamboo Cutlery Set",
+        "variants": [
+            { "id": "travel-set", "size": "One Size", "material": "Natural", "stock": 100, "price": 15.99 }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Organic Lip Balm",
+        "variants": [
+            { "id": "vanilla-tube", "size": "One Size", "material": "Vanilla", "stock": 180, "price": 4.99 }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Recycled Cotton Tote",
+        "variants": [
+            { "id": "large-grey", "size": "Large", "material": "Grey", "stock": 70, "price": 8.99 }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Compostable Trash Bags",
+        "variants": [
+            { "id": "medium-roll", "size": "Medium", "material": "Green", "stock": 120, "price": 12.99 }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Eco-friendly Hair Brush",
+        "variants": [
+            { "id": "bamboo-handle", "size": "One Size", "material": "Bamboo", "stock": 60, "price": 10.99 }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Stainless Steel Water Bottle",
+        "variants": [
+            { "id": "500ml-black", "size": "500ml", "material": "Black", "stock": 30, "price": 16.99 }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Reusable Sandwich Bags",
+        "variants": [
+            { "id": "set-of-5", "size": "One Size", "material": "Clear", "stock": 50, "price": 18.99 }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Eco-friendly Toothpaste",
+        "variants": [
+            { "id": "peppermint-tube", "size": "One Size", "material": "Peppermint", "stock": 200, "price": 6.99 }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Recycled Paper Pen",
+        "variants": [
+            { "id": "pack-of-10", "size": "One Size", "material": "Brown", "stock": 180, "price": 9.99 }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Organic Face Cream",
+        "variants": [
+            { "id": "lavender-jar", "size": "One Size", "material": "Lavender", "stock": 60, "price": 29.99 }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Eco-friendly Dish Soap",
+        "variants": [
+            { "id": "lemon-bottle", "size": "500ml", "material": "Lemon", "stock": 90, "price": 7.99 }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Recycled Glass Jars",
+        "variants": [
+            { "id": "set-of-6", "size": "Medium", "material": "Clear", "stock": 40, "price": 22.99 }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Organic Cotton Pillowcase",
+        "variants": [
+            { "id": "standard-white", "size": "Standard", "material": "White", "stock": 70, "price": 12.99 }
+        ]
+    }
+]

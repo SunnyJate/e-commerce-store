@@ -1,0 +1,99 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 600px; /* Increased width for better table display */
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.product-list {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.product-item {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-list th, .product-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.product-list th {
+  background-color: #f2f2f2;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensure alignment of text and buttons */
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  background: white;
+}
+
+.modal-actions span {
+  align-self: center;
+}
+
+.modal-actions div {
+  display: flex;
+  gap: 10px;
+}
+
+.modal-actions button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.modal-actions button:hover {
+  background-color: #0056b3;
+}
+
+.modal-actions button:last-child {
+  background-color: #6c757d;
+}
+
+.modal-actions button:last-child:hover {
+  background-color: #5a6268;
+}
