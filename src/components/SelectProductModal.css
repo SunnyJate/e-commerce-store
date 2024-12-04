@@ -1,0 +1,104 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure the modal takes full height */
+  position: relative; /* Position relative for absolute positioning of footer */
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.products-table {
+  flex: 1; /* Allow the product table to grow and take available space */
+  overflow-y: auto; /* Enable scrolling for the product list */
+  margin-bottom: 20px; /* Space below the product table */
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-info img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.variants table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.variants th,
+.variants td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between; /* Space between count and buttons */
+  padding: 10px; /* Add some padding */
+  background-color: #f1f1f1; /* Optional: background color for footer */
+  position: sticky; /* Make footer sticky */
+  bottom: 0; /* Align to the bottom */
+}
+
+.product-count {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px; /* Add gap between buttons */
+}
+
+.modal-actions button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.modal-actions button:hover {
+  background-color: #f0f0f0;
+}

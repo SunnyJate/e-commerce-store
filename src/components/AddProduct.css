@@ -1,0 +1,109 @@
+.add-product-container {
+  margin: 50px auto;
+  width: 40%;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 0 10%;
+}
+
+.product-label,
+.discount-label {
+  font-weight: bold;
+  color: #333;
+  padding-left: 40px;
+}
+
+.product-list {
+  margin-top: 10px;
+}
+
+.product-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.drag-icon {
+  cursor: grab;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.product-id {
+  margin-right: 5px;
+}
+
+/* Wrapping the input and pencil icon together */
+.product-input-wrapper {
+  position: relative;
+  width: 300px;
+}
+
+.product-input {
+  width: 90%;
+  padding: 5px;
+  padding-right: 10px; /* Leave space for pencil icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Pencil (edit) icon styling */
+.edit-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.edit-icon:hover {
+  color: #2ecc71;
+}
+
+.discount-btn {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.add-product-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-product-btn {
+  padding: 10px 20px;
+  border: 1px solid #2ecc71;
+  background: none;
+  color: #2ecc71;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-product-btn:hover,
+.discount-btn:hover {
+  background-color: #27ae60;
+  color: white;
+}

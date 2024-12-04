@@ -1,0 +1,260 @@
+[
+    {
+        "id": 1,
+        "title": "Fog Linen Chambray Towel - Beige Stripe",
+        "variants": [
+            { "id": 1, "product_id": 1, "title": "XS / Silver", "price": "49", "quantity": 99 },
+            { "id": 2, "product_id": 1, "title": "S / Silver", "price": "49", "quantity": 80 },
+            { "id": 3, "product_id": 1, "title": "M / Silver", "price": "49", "quantity": 75 }
+        ],
+        "image": {
+            "id": 100,
+            "product_id": 1,
+            "src": "https://cdn11.bigcommerce.com/s-p1xcugzp89/products/77/images/266/foglinenbeigestripetowel1b.1647248662.386.513.jpg?c=1"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Orbit Terrarium - Large",
+        "variants": [
+            { "id": 1, "product_id": 2, "title": "Default Title", "price": "109", "quantity": 50 }
+        ],
+        "image": {
+            "id": 201,
+            "product_id": 2,
+            "src": "https://cdn11.bigcommerce.com/s-p1xcugzp89/products/80/images/272/roundterrariumlarge.1647248662.386.513.jpg?c=1"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Ceramic Flower Pot - Small",
+        "variants": [
+            { "id": 1, "product_id": 3, "title": "Default Title", "price": "25", "quantity": 150 }
+        ],
+        "image": {
+            "id": 300,
+            "product_id": 3,
+            "src": "https://example.com/images/flowerpot-small.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Handmade Wooden Cutting Board",
+        "variants": [
+            { "id": 1, "product_id": 4, "title": "Default Title", "price": "45", "quantity": 60 },
+            { "id": 2, "product_id": 4, "title": "Personalized Engraving", "price": "55", "quantity": 30 }
+        ],
+        "image": {
+            "id": 400,
+            "product_id": 4,
+            "src": "https://example.com/images/cutting-board.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Woven Basket - Large",
+        "variants": [
+            { "id": 1, "product_id": 5, "title": "Natural", "price": "30", "quantity": 80 },
+            { "id": 2, "product_id": 5, "title": "Colored", "price": "35", "quantity": 50 }
+        ],
+        "image": {
+            "id": 500,
+            "product_id": 5,
+            "src": "https://example.com/images/woven-basket-large.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Stainless Steel Water Bottle",
+        "variants": [
+            { "id": 1, "product_id": 6, "title": "500ml", "price": "15", "quantity": 200 },
+            { "id": 2, "product_id": 6, "title": "1L", "price": "20", "quantity": 150 },
+            { "id": 3, "product_id": 6, "title": "2L", "price": "25", "quantity": 100 }
+        ],
+        "image": {
+            "id": 600,
+            "product_id": 6,
+            "src": "https://example.com/images/water-bottle.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Cotton Throw Blanket",
+        "variants": [
+            { "id": 1, "product_id": 7, "title": "Default Title", "price": "55", "quantity": 40 }
+        ],
+        "image": {
+            "id": 700,
+            "product_id": 7,
+            "src": "https://example.com/images/throw-blanket.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Ceramic Mug - Set of 2",
+        "variants": [
+            { "id": 1, "product_id": 8, "title": "Default Title", "price": "20", "quantity": 100 },
+            { "id": 2, "product_id": 8, "title": "With Lid", "price": "25", "quantity": 60 }
+        ],
+        "image": {
+            "id": 800,
+            "product_id": 8,
+            "src": "https://example.com/images/ceramic-mug-set.jpg"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Leather Journal - A5",
+        "variants": [
+            { "id": 1, "product_id": 9, "title": "Default Title", "price": "35", "quantity": 75 },
+            { "id": 2, "product_id": 9, "title": "With Pen", "price": "40", "quantity": 50 }
+        ],
+        "image": {
+            "id": 900,
+            "product_id": 9,
+            "src": "https://example.com/images/leather-journal.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Bamboo Cutting Board Set",
+        "variants": [
+            { "id": 1, "product_id": 10, "title": "Default Title", "price": "50", "quantity": 30 },
+            { "id": 2, "product_id": 10, "title": "With Knife", "price": "60", "quantity": 20 }
+        ],
+        "image": {
+            "id": 1000,
+            "product_id": 10,
+            "src": "https://example.com/images/bamboo-cutting-board-set.jpg"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Glass Terrarium - Medium",
+        "variants": [
+            { "id": 1, "product_id": 11, "title": "Default Title", "price": "75", "quantity": 20 }
+        ],
+        "image": {
+            "id": 1100,
+            "product_id": 11,
+            "src": "https://example.com/images/glass-terrarium.jpg"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Cotton Canvas Tote Bag",
+        "variants": [
+            { "id": 1, "product_id": 12, "title": "Default Title", "price": "25", "quantity": 150 },
+            { "id": 2, "product_id": 12, "title": "With Pocket", "price": "30", "quantity": 100 }
+        ],
+        "image": {
+            "id": 1200,
+            "product_id": 12,
+            "src": "https://example.com/images/canvas-tote-bag.jpg"
+        }
+    },
+    {
+        "id": 13,
+        "title": "Ceramic Planter - Large",
+        "variants": [
+            { "id": 1, "product_id": 13, "title": "Default Title", "price": "40", "quantity": 60 },
+            { "id": 2, "product_id": 13, "title": "With Saucer", "price": "45", "quantity": 30 }
+        ],
+        "image": {
+            "id": 1300,
+            "product_id": 13,
+            "src": "https://example.com/images/ceramic-planter-large.jpg"
+        }
+    },
+    {
+        "id": 14,
+        "title": "Silicone Baking Mat",
+        "variants": [
+            { "id": 1, "product_id": 14, "title": "Default Title", "price": "15", "quantity": 100 },
+            { "id": 2, "product_id": 14, "title": "Set of 2", "price": "25", "quantity": 50 }
+        ],
+        "image": {
+            "id": 1400,
+            "product_id": 14,
+            "src": "https://example.com/images/silicone-baking-mat.jpg"
+        }
+    },
+    {
+        "id": 15,
+        "title": "Stainless Steel Straw Set",
+        "variants": [
+            { "id": 1, "product_id": 15, "title": "Default Title", "price": "10", "quantity": 200 },
+            { "id": 2, " product_id": 15, "title": "With Cleaning Brush", "price": "12", "quantity": 150 }
+        ],
+        "image": {
+            "id": 1500,
+            "product_id": 15,
+            "src": "https://example.com/images/stainless-steel-straw-set.jpg"
+        }
+    },
+    {
+        "id": 16,
+        "title": "Wooden Coaster Set",
+        "variants": [
+            { "id": 1, "product_id": 16, "title": "Default Title", "price": "20", "quantity": 90 },
+            { "id": 2, "product_id": 16, "title": "Engraved", "price": "25", "quantity": 40 }
+        ],
+        "image": {
+            "id": 1600,
+            "product_id": 16,
+            "src": "https://example.com/images/wooden-coaster-set.jpg"
+        }
+    },
+    {
+        "id": 17,
+        "title": "Eco-Friendly Notebook",
+        "variants": [
+            { "id": 1, "product_id": 17, "title": "Default Title", "price": "12", "quantity": 150 },
+            { "id": 2, "product_id": 17, "title": "With Recycled Paper", "price": "15", "quantity": 100 }
+        ],
+        "image": {
+            "id": 1700,
+            "product_id": 17,
+            "src": "https://example.com/images/eco-friendly-notebook.jpg"
+        }
+    },
+    {
+        "id": 18,
+        "title": "Handcrafted Soap Set",
+        "variants": [
+            { "id": 1, "product_id": 18, "title": "Default Title", "price": "30", "quantity": 80 },
+            { "id": 2, "product_id": 18, "title": "Gift Set", "price": "40", "quantity": 30 }
+        ],
+        "image": {
+            "id": 1800,
+            "product_id": 18,
+            "src": "https://example.com/images/handcrafted-soap-set.jpg"
+        }
+    },
+    {
+        "id": 19,
+        "title": "Vintage Wall Clock",
+        "variants": [
+            { "id": 1, "product_id": 19, "title": "Default Title", "price": "60", "quantity": 25 },
+            { "id": 2, "product_id": 19, "title": "With Roman Numerals", "price": "70", "quantity": 15 }
+        ],
+        "image": {
+            "id": 1900,
+            "product_id": 19,
+            "src": "https://example.com/images/vintage-wall-clock.jpg"
+        }
+    },
+    {
+        "id": 20,
+        "title": "Travel Jewelry Organizer",
+        "variants": [
+            { "id": 1, "product_id": 20, "title": "Default Title", "price": "35", "quantity": 40 },
+            { "id": 2, "product_id": 20, "title": "With Mirror", "price": "45", "quantity": 20 }
+        ],
+        "image": {
+            "id": 2000,
+            "product_id": 20,
+            "src": "https://example.com/images/travel-jewelry-organizer.jpg"
+        }
+    }
+]

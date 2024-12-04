@@ -1,0 +1,237 @@
+/* Center the entire content on the page */
+.product-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Product Item Styling */
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  max-width: 600px;
+  width: 100%; /* Full width of the container */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: flex-start; /* Align items to the left */
+}
+
+/* Product Header Styling */
+.product-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.drag-icon {
+  cursor: grab;
+  font-size: 18px;
+  margin-right: 10px;
+  color: #888;
+}
+
+.drag-icon:hover {
+  color: #555;
+}
+
+.product-info {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between title and Add Discount */
+  flex-grow: 1; /* Allow this section to take up available space */
+  width: 100%;
+}
+
+/* Product Name Styling */
+.product-name-wrapper {
+  flex-grow: 1; /* Ensures the name box occupies space properly */
+}
+
+.product-name-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #f9f9f9;
+  width: 90%;
+}
+
+.product-name-input {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.product-name-input:focus {
+  outline: none;
+}
+
+/* Pencil Icon Styling */
+.edit-icon {
+  cursor: pointer;
+  margin-left: 10px; /* Space between name and icon */
+  color: #00793c; /* Green color for the icon */
+  font-size: 16px; /* Adjust icon size */
+}
+
+.edit-icon:hover {
+  color: #005c2d; /* Darker green on hover */
+}
+
+/* Align Product and Discount Fields in the Same Row */
+.discount-fields-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px; /* Space between product info and discount field */
+  width: 100%;
+}
+
+.discount-fields {
+  display: flex;
+  gap: 10px;
+  align-items: center; /* Ensure input and select align to the center */
+}
+
+/* Input for Amount */
+.discount-fields input[type="number"] {
+  border: 1px solid #ddd;
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-size: 10px;
+  background-color: #f9f9f9;
+  height: 24px; /* Match the height of the button */
+  width: 40px; /* Adjust width to fit content */
+}
+
+/* Discount Type Dropdown */
+.discount-fields select {
+  border: 1px solid #ddd;
+  align-items: left;
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-size: 10px;
+  background-color: #f9f9f9;
+  height: 36px; /* Match the height of the button */
+  width: 90px; /* Adjust width to fit content */
+}
+
+/* Add Discount Button */
+.add-discount-btn {
+  background-color: #00793c;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px; /* Match the height of the input and select */
+  margin-left: 20px; /* Space between Add Discount and other fields */
+}
+
+.add-discount-btn:hover {
+  background-color: #005c2d;
+}
+
+/* Delete Product Button */
+.delete-product-btn {
+  background: none;
+  border: none;
+  color: #f00;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-product-btn:hover {
+  color: #d00;
+}
+
+/* Show Variants Button */
+.toggle-variants-btn {
+  background: none;
+  color: #00793c;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-top: 15px; /* Space between Add Discount and toggle button */
+  text-align: right;
+  width: 100%; /* Ensures it aligns fully to the right */
+}
+
+/* Variant List Styling */
+.variants {
+  margin-top: 15px;
+  width: 100%;
+  padding-left: 25px;
+}
+
+.variant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  width: 95%;
+}
+
+.variant-name-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #f9f9f9;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.variant-name-input {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+/* Delete Variant Button */
+.delete-variant-btn {
+  background: none;
+  border: none;
+  color: #f00;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.delete-variant-btn:hover {
+  color: #d00;
+}
+
+.add-product-btn {
+  position: fixed;
+  bottom: 20px; /* Position the button 20px from the bottom */
+  right: 50%; /* Position it horizontally at the center */
+  transform: translateX(50%); /* Adjust center alignment */
+  background-color: #00793c;
+  color: #fff;
+  padding: 12px 20px; /* Adjust button size */
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  z-index: 1000; /* Keep it above other elements */
+}
+
+.add-product-btn:hover {
+  background-color: #005c2d; /* Darker green on hover */
+}
